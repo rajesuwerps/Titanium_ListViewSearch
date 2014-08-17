@@ -1,0 +1,18 @@
+".container": {
+	backgroundColor: 'white', fullscreen: true	
+},
+"Label": {
+	width: Ti.UI.FILL,
+	height: 40,
+	color: "#000",
+	backgroundColor: "#eee",
+	top: 0,
+	text: "Sample Airports",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+"ListView":{
+	top: 41
+}
+"SearchBar":{
+	height: 40
+} 

@@ -1,0 +1,18 @@
+<Alloy>
+	<Window class="container">
+		<Label />
+		<ListView>
+			<SearchBar hintText="Search by name or code" showCancel="true" />
+			<ListSection>
+				<ListItem title="Changi International" searchableText="Changi International SIN" />
+				<ListItem title="Cozumel International" searchableText="Cozumel International CZM" />
+				<ListItem title="John F. Kennedy International" searchableText="John F. Kennedy International JFK" />
+				<ListItem title="Los Angeles International" searchableText="Los Angeles International LAX" />
+				<ListItem title="Newark Liberty International" searchableText="Newark Liberty International EWR" />
+				<ListItem title="Newport News/Williamsburg International" searchableText="Newport News/Williamsburg International PHF" />
+				<ListItem title="Tokyo International" searchableText="Tokyo International HND" />
+				<ListItem title="Wellington International" searchableText="Wellington International WLG" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>
